@@ -66,6 +66,7 @@ public class TopLevelActivity extends AppCompatActivity {
 
                 Intent intent_action_share = new Intent(android.content.Intent.ACTION_SEND);
                 intent_action_share.setType("text/plain");
+                intent_action_share.putExtra(android.content.Intent.EXTRA_TEXT, "¿Quieres tomar un capuccino?");
                 startActivity(Intent.createChooser(intent_action_share, "Compartir vía"));
 
                 break;
