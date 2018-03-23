@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JuanValdez</string>
+    <string name="logoJV">Logo Juan Valdez</string>
+    <string-array name="topLevelOptions">
+        <item>Bebidas calientes</item>
+        <item>Comidas</item>
+        <item>Tiendas</item>
+    </string-array>
+    <string name="make_order">Hacer pedido</string>
+    <string name="actions_share">Compartir</string>
+</resources>
